@@ -69,4 +69,6 @@ theme: material
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: git@github.com:marcelodeandrade/marcelodeandrade.github.io.git
+  branch: master
