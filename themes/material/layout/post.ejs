@@ -40,7 +40,7 @@
                 <% } %>
 
                 <!-- Post Comments -->
-                <% if(page.comment !== false) { %>
+                <% if(page.comment !== false && is_post()) { %>
                     <%- partial('_partial/comment') %>
                 <% } %>
             </div>
